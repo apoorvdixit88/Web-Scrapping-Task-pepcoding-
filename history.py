@@ -21,7 +21,7 @@ text=re.sub(r'\s+',' ',text)
 
 sentences=nltk.sent_tokenize(text)
 sentences=[nltk.word_tokenize(sentence) for sentence in sentences]
-pritn(sentences)
+print(sentences)
 # listToStr = ' '.join([str(elem) for elem in sentences])
 # f=open("histo.txt","w")
 # f.write(listToStr.encode("utf-8"))
